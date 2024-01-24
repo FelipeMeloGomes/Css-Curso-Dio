@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 body {
     background: #ffffff;
@@ -142,21 +143,21 @@ main {
     cursor: pointer;
 }
 .card-video img {
-    width: 100%;
-    max-width: 250px;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
 }
 .video-details {
     display: grid;
     grid-template-columns: 50px 2fr;
-    gap: 10px;
     margin-top: 16px;
-    max-width: 70%;
+    width: 65%;
 }
 .video-details img {
-    width: 50px;
+    width: 42px;
+    height: 42px;
 }
+
 .channel-info h2 {
     font-weight: 600;
     font-size: 12px;
@@ -183,11 +184,9 @@ main {
     .card-video img {
         height: auto;
         object-fit: cover;
-        width: 100%;
-    }
-    .video-details {
         max-width: 100%;
     }
+    
     .channel-info h2 {
         font-size: 14px;
         line-height: 16px;
